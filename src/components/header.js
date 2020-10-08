@@ -1,34 +1,31 @@
-import { Link } from "gatsby"
+import { Link as GatsbyLink } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
+import { NavbarWrapper } from "../elements/HeaderElements"
+import Logo from "./Logo"
 
 const Header = ({ siteTitle }) => (
-  <header
-    style={{
-      background: `rebeccapurple`,
-      marginBottom: `1.45rem`,
-    }}
-  >
-    <div
-      style={{
-        margin: `0 auto`,
-        maxWidth: 960,
-        padding: `1.45rem 1.0875rem`,
-      }}
-    >
-      <h1 style={{ margin: 0 }}>
-        <Link
-          to="/"
-          style={{
-            color: `white`,
-            textDecoration: `none`,
-          }}
-        >
-          {siteTitle}
-        </Link>
-      </h1>
-    </div>
-  </header>
+  <NavbarWrapper>
+    <Logo />
+    <ul>
+      <li>
+        <a href="#">Services</a>
+      </li>
+      <li>
+        <a href="#">Our Work</a>
+      </li>
+      <li>
+        <a href="#">Contact</a>
+      </li>
+      <li>
+        <GatsbyLink to="/page-2/">About</GatsbyLink>
+      </li>
+      <li>
+        {" "}
+        <GatsbyLink to="/page-2/">Pricing</GatsbyLink>
+      </li>
+    </ul>
+  </NavbarWrapper>
 )
 
 Header.propTypes = {

@@ -20,6 +20,7 @@ export default {
     large: "3rem",
     xLarge: "4rem",
     xxLarge: "6rem",
+    footerHeight: "12em",
   },
   animations: {
     button: "box-shadow 0.3s ease",
