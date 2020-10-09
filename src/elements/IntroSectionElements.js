@@ -42,8 +42,7 @@ export const IntroTextContainer = styled.div`
   }
  }
 `
-
+// Gatsby fluid images fill 100% of the width of their containers up until the query maxWidth.
 export const IntroImage = styled(Img)`
-  width: 100%;
-  height: 100%
+ height: 100%;
 `

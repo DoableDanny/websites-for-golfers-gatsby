@@ -5,7 +5,7 @@ import {
   IntroTextContainer,
   IntroImage,
 } from "../elements/IntroSectionElements"
-import Img from "gatsby-image"
+import { ActionBtn } from '../elements/ActionButton'
 
 export default function IntroSection() {
   const data = useStaticQuery(graphql`
@@ -27,6 +27,7 @@ export default function IntroSection() {
         <h2>Beautiful Fast Websites, SEO
         and Internet Marketing
 for Golf Professionals</h2>
+        <ActionBtn>Get a Quote</ActionBtn>
       </IntroTextContainer>
       <IntroImage fluid={data.introImage.childImageSharp.fluid} />
     </IntroSectionWrapper>
