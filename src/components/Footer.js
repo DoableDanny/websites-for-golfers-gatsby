@@ -13,8 +13,6 @@ function Footer({ siteTitle }) {
     }
   `)
 
-  console.log(data.twitter.publicURL)
-
   return (
     <FooterWrapper>
       <span>Email: myemail@tigerlines.com</span>

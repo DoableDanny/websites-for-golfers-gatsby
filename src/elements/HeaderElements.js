@@ -1,5 +1,4 @@
 import styled from "styled-components"
-import { Link as GatsbyLink } from "gatsby"
 
 export const NavbarWrapper = styled.header`
   background-color: ${props => props.theme.colors.main1};

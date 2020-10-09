@@ -9,6 +9,7 @@ export default {
     paragraph: "#F4FBFF",
   },
   breakpoints: {
+    smallMobile: "only screen and (max-width: 30rem)",
     mobile: "only screen and (max-width: 40rem)",
     tablet: "only screen and (max-width: 65rem)",
   },

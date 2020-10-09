@@ -7,10 +7,10 @@ export const PageContainer = styled.div`
 
 export const ContentWrapper = styled.div`
   padding-bottom: ${props => props.theme.spacings.footerHeight};
-
   width: 100%;
 
-  h1,
+
+  /* h1,
   h2,
   h3,
   h4,
@@ -19,5 +19,5 @@ export const ContentWrapper = styled.div`
   p {
     margin: 15px;
     line-height: 1.5rem;
-  }
+  } */
 `
