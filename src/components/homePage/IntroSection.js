@@ -4,8 +4,8 @@ import {
   IntroSectionWrapper,
   IntroTextContainer,
   IntroImage,
-} from "../elements/IntroSectionElements"
-import { ActionBtn } from '../elements/ActionButton'
+} from "../../elements/homePageElements/IntroSectionElements"
+import { ActionBtn } from '../../elements/ActionButton'
 
 export default function IntroSection() {
   const data = useStaticQuery(graphql`

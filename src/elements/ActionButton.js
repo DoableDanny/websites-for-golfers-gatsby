@@ -5,9 +5,8 @@ export const ActionBtn = styled.button`
     border-radius: 40px;
     border: none;
     padding: 17px 55px;
-    margin-top: 35px;
     color: #130F02;
-    font-size: 1em;
+    font-size: 1.3rem;
     transition: background-color 0.3s ease;
 
     :hover {

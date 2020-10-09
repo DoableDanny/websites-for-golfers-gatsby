@@ -18,7 +18,7 @@ export const IntroTextContainer = styled.div`
 
    h2 {
    color: #D3DADC;
-
+   margin-bottom: 35px;
    line-height: 1.4em;
    font-size: 2em;
  }
