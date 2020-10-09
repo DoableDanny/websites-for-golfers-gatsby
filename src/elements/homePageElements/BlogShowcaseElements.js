@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 export const BlogShowcaseWrapper = styled.section`
-    background-color: ${props => props.theme.colors.main2};
+    background-color: ${props => props.theme.colors.main1};
     padding-left: 125px;
     padding-top: 40px;
     padding-bottom: 40px;
@@ -13,7 +13,6 @@ export const BlogShowcaseWrapper = styled.section`
         flex-direction: column;
         align-items: center;
     }
-
 
 `
 export const TitleAndBtnWrapper = styled.div`
@@ -34,6 +33,7 @@ export const TitleAndBtnWrapper = styled.div`
 
     @media ${props => props.theme.breakpoints.tablet} {
         margin-left: 0px;
+        width: 350px;
     }
    
    
