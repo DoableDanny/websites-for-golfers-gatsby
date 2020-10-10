@@ -7,16 +7,6 @@ export const ServicesWrapper = styled.section`
     display: flex;
     flex-direction: column;
     align-items: center;
-
-
-    h2 {
-        color: #EFF8FC;
-        text-align: center;
-        font-size: 1.8rem;
-        margin-bottom: 90px;
-        margin-right: 10px;
-        margin-left: 10px
-    }
 `
 
 export const ServiceModulesContainer = styled.div`
@@ -51,6 +41,6 @@ export const ServicesModule = styled.div`
 
    @media only screen and (max-width: 60rem) {
       width: 300px;
-      margin-bottom: 50px;
+      margin-bottom: 70px;
     }
 `

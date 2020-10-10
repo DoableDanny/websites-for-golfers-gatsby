@@ -4,6 +4,7 @@ import { NavbarWrapper, Logo } from "../elements/HeaderElements"
 import IntroSection from "../components/homePage/IntroSection"
 import BlogShowcase from "../components/homePage/BlogShowcase"
 import Services from '../components/homePage/Services'
+import Portfolio from '../components/homePage/Portfolio'
 
 import Layout from "../components/layout"
 import Image from "../components/image"
@@ -14,6 +15,7 @@ const IndexPage = props => (
     <IntroSection />
     <BlogShowcase />
     <Services />
+    <Portfolio />
   </Layout>
 )
 

@@ -3,6 +3,7 @@ import { useStaticQuery, graphql } from "gatsby"
 import Img from 'gatsby-image'
 
 import { ServicesWrapper, ServicesModule, ServiceModulesContainer } from '../../elements/homePageElements/ServicesElements'
+import { H2 } from '../../elements/homePageElements/H2'
 
 export default function Services() {
   const data = useStaticQuery(graphql`
@@ -35,7 +36,7 @@ export default function Services() {
 
   return (
     <ServicesWrapper>
-      <h2>How I can help you get more customers</h2>
+      <H2>How I can help you get more customers</H2>
       <ServiceModulesContainer>
         <ServicesModule>
           <Img fixed={data.webDesignImg.childImageSharp.fixed} />
