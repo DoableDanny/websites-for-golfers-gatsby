@@ -13,6 +13,21 @@ export const PortfolioItemsContainer = styled.div`
     display: flex;
     justify-content: space-between;
     width: 100%;
+    padding-left: 125px;
+    padding-right: 125px;
+
+
+    @media only screen and (max-width: 80rem) {
+        padding-left: 40px;
+        padding-right: 40px;
+
+    } 
+
+    @media only screen and (max-width: 70rem) {
+        padding-left: 10px;
+        padding-right: 10px;
+
+    }
 
     @media only screen and (max-width: 60rem) {
         flex-direction: column;
@@ -21,7 +36,9 @@ export const PortfolioItemsContainer = styled.div`
 `
 
 export const PortfolioItemWrapper = styled.div`
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 
     a {
       color: #EFF8FC;
