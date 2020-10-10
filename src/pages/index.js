@@ -5,6 +5,7 @@ import IntroSection from "../components/homePage/IntroSection"
 import BlogShowcase from "../components/homePage/BlogShowcase"
 import Services from '../components/homePage/Services'
 import Portfolio from '../components/homePage/Portfolio'
+import ContactForm from '../components/homePage/ContactFormSection'
 
 import Layout from "../components/layout"
 import Image from "../components/image"
@@ -16,6 +17,7 @@ const IndexPage = props => (
     <BlogShowcase />
     <Services />
     <Portfolio />
+    <ContactForm />
   </Layout>
 )
 
